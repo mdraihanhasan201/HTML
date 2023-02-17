@@ -1,0 +1,10 @@
+table,th,td{
+
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+
+thead{
+    background-color: aqua;
+}
