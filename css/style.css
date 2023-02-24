@@ -1,11 +1,23 @@
-.main{
+.main {
 
 
     background-color: beige;
 }
-.first{
+
+.first {
     background-color: aqua;
 }
-.second{
+
+.second {
     background-color: blueviolet;
+}
+
+samp {
+
+    background-color:#ffff;
+}
+span
+{
+
+    background-color: #ffff0f;
 }
