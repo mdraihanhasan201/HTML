@@ -1,0 +1,50 @@
+header{
+    background-color: lavender;
+    border-bottom: 44px red;
+}
+
+section.my_article h2{
+    background-color: blue;
+}
+
+header p{
+
+    color: blueviolet;
+}
+
+article p{
+
+    color:darkcyan ;
+}
+main h2{
+    color:red;
+    border-bottom: 4px red;
+}
+main >h2{
+    background-color:yellow;
+}
+
+header > p{
+    background-color: aqua;
+}
+.hey{
+ background-color: black;
+ color: white;
+}
+.main_logo{
+background-color: cadetblue;
+color: azure;
+
+}
+input[type=text]{
+    color: brown;
+    background-color: black;
+}
+/* attribute selector */
+input[type="password"]{
+    color: yellow;
+    background-color: blueviolet;
+}
+input[type="submit"]{
+    background-color: green;
+}
