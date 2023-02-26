@@ -1,0 +1,35 @@
+.nav1 {
+
+
+    border: 1px solid black;
+    text-align: center;
+    background-color: #1b151533;
+
+
+}
+
+body {
+    padding: auto;
+    margin: 40px 60px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+p{
+  font-size: 20px;
+}
