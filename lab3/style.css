@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #141414;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	background: #fff;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	max-width: 400px;
+	width: 100%;
+}
+
+form h1 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.form-input {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form-input input {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333;
+}
+
+.form-input input:focus,
+.form-input input:valid {
+	outline: none;
+	border-bottom: 2px solid #e50914;
+}
+
+.form-input input:focus + label,
+.form-input input:valid + label {
+	top: -18px;
+	left: 0;
+	color: #e50914;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.form-input label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #999;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-input button {
+	background: #e50914;
+	color: #fff;
+	border: none;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-input button:hover {
+	background: #fff;
+	color: #e50914;
+}
+
+.form-footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.form-footer p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #999;
+	margin-bottom: 5px;
+}
+
+.form-footer p a {
+	color: #e50914;
+	text-decoration: none;
+}
