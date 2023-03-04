@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    margin-left: 250px;
+}
+
+.table1{
+ 
+    width: 1000px;
+    height: 100px;
+}
+
+td{
+    border: 1px solid green;
+}
+
+.table2{
+    background-color: blueviolet;
+    text-transform: uppercase;
+   
+    width: 1000px;
+    height: 40px;
+}
+
+.table3{
+    
+   
+    width: 1000px;
+    height: 200px;
+}
+.table4{
+   
+    width: 1000px;
+    height: 100px;
+    text-align: justify;
+    text-shadow: 0cap red;
+    background-color: chocolate;
+}
+button{
+    background-color: crimson;
+}
+
+
+
+    
+
+
