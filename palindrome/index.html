@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plaindrome</title>
+</head>
+<body>
+
+    <table>
+        <tr> <th>palandrome checker</th></tr>
+
+
+        <tr>
+            <th>enter input</th>
+            <td> <input type="text" id="input" placeholder=" input box" ></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="submit" id="submit" value="submit"></td>
+        </tr>
+    
+ 
+        
+    </table>
+  
+    <script>
+
+        var submit =document.getElementById("submit");
+
+        submit.onclick=function(){
+            var text =document.getElementById("input").value;
+           var res ="";
+
+
+           for(var i=text.length-1;i>=0;i--)
+           
+           
+           {
+
+            res+=text[i];
+
+           }
+           if(text==res){
+            alert("its palindrome");
+           }
+           else{
+            alert("its not palindrome");
+           }
+
+        }
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
