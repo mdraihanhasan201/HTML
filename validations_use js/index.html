@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<body>
+
+    <Form name="input" onsubmit="return validation()">
+
+        User Name:<input type="text" name="name" id=""> <br><br>
+        User Pass:<input type="password" name="pass" id="">
+        <br><br>
+       <input type="submit" name="button" value="Submit">
+    </Form>
+
+
+
+    <script type="text/javascript">
+    function validation(){
+     var uname = document.input.name.value;
+     var pass = document . input .pass.value;
+
+     if (uname == "" || pass == ""){
+       alert("both frield should not be blank");
+       return;
+
+     }
+
+     if (pass.length<6 || pass.length> 12 ){
+
+        alert("pass should be gater than 6 and smaller than 12");
+        return;
+     }
+
+     
+     if (uname.slice(0,1) == "-" || uname.slice(0,1) == "@"){
+        alert("name should not start with @,-");
+     }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
