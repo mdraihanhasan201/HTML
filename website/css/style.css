@@ -261,4 +261,16 @@ html{
     content: '';
     display: block;
     clear: both;
+   
+}
+.fotter{
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.social-media-link i{
+    margin: 2rem;
+
 }
